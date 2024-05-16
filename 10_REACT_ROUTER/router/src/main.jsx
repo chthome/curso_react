@@ -44,6 +44,11 @@ const router = createBrowserRouter([
       {
         path: "search",
         element: <Search />,
+      },
+      // 10 - Redirect
+      {
+        path: "teste",
+        element: <Navigate to="/" />,
       }
     ],
   },
